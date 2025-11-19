@@ -3,13 +3,13 @@
 Une application Java en console pour simuler un jeu de rôle inspiré de **Donjons & Dragons**, mettant en scène des personnages combattant des monstres à travers plusieurs donjons.
 
 🔥 Présentation
-Le Projet **Donjons & Dragon** modélise un jeu de rôle de **Medieval Fantasy** simplifié, se jouant au tour par tour. L'objectif pour l'équipe de joueurs est d'éliminer tous les monstres de trois donjons successifs.
+Le Projet **Donjons & Dragon** modélise un jeu de rôle de **Medieval Fantasy** simplifié, se jouant au tour par tour. L'objectif pour l'équipe de joueurs est d'éliminer tous les monstres de tous les donjons successifs afin d'en terminer le plus possible.
 
 **Règles Clés :**
 * **Victoire/Défaite :** L'équipe gagne si tous les monstres sont vaincus. L'équipe perd si un seul personnage est éliminé.
 * **Tour par Tour :** L'ordre des tours est déterminé par un jet d'**Initiative** au début de chaque donjon.
 * **Actions :** Les personnages et les monstres peuvent effectuer jusqu'à 3 actions par tour (attaquer, se déplacer, s'équiper, ramasser un équipement).
-* **Jets de Dés :** Toutes les actions de combat (attaque et dégâts) se basent sur des jets de dés (ex: $1\text{d}20$, $3\text{d}4$).
+* **Jets de Dés :** Toutes les actions de combat (attaque et dégâts) se basent sur des jets de dés.
 
 ### 🧑‍🤝‍🧑 Les Personnages
 Chaque personnage est défini par sa **Race** (Humain, Nain, Elfe, Halfelin) et sa **Classe** (Guerrier, Clerc, Magicien, Roublard), qui influencent ses caractéristiques de base.
@@ -61,4 +61,4 @@ Les monstres sont définis par leur espèce, leurs caractéristiques (PV, Vitess
 
 3. **Lancer l'application**
     * Compilez les sources situées dans le dossier `src/`.
-    * Exécutez la classe principale, qui devrait être `Main.java` (selon la structure suggérée).
+    * Exécutez la classe principale `Main.java`.
