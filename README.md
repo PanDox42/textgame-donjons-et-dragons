@@ -19,8 +19,8 @@ Chaque personnage est défini par sa **Race** (Humain, Nain, Elfe, Halfelin) et 
 | **Points de Vie** | Dégâts max avant de mourir. | Déterminés par la classe. |
 | **Force** | Bonus pour les attaques au corps-à-corps. | Jet d'attaque (corps-à-corps). |
 | **Dextérité** | Bonus pour les attaques à distance. | Jet d'attaque (à distance). |
-| **Vitesse** | Distance de déplacement max par action. | Déplacement (distance $/ 3$). |
-| **Initiative** | Bonus pour l'ordre de jeu. | Ordre des tours (jet de $1\text{d}20$ + Initiative). |
+| **Vitesse** | Distance de déplacement max par action. | Déplacement (distance /3). |
+| **Initiative** | Bonus pour l'ordre de jeu. | Ordre des tours (jet de 1d20 + Initiative). |
 
 ## 🛡️ Les Équipements
 Les personnages gèrent un inventaire d'armes et d'armures, et peuvent équiper une seule arme et une seule armure.
@@ -33,7 +33,7 @@ Les monstres sont définis par leur espèce, leurs caractéristiques (PV, Vitess
 ---
 
 ## 🧠 Fonctionnalités
-* **Simulation de Combat :** Gestion des jets d'attaque ($1\text{d}20$ + caractéristique vs. Classe d'Armure) et des dégâts.
+* **Simulation de Combat :** Gestion des jets d'attaque (1d20 + caractéristique vs. Classe d'Armure) et des dégâts.
 * **Gestion de Donjon :** Création et affichage d'une carte rectangulaire avec des obstacles et des équipements à ramasser.
 * **Gestion de Personnages :** Création de personnages avec les règles de race et de classe. Gestion de l'inventaire et des équipements portés.
 * **Séquencement des Tours :** Ordre des tours basé sur l'initiative.
