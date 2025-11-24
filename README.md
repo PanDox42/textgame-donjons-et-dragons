@@ -1,4 +1,6 @@
 # 🐉 Projet Donjons & Dragons
+[![Status](https://camo.githubusercontent.com/43016e90af7ddd2f27160ce75c236c7c5380d0b2c4812d3153751e1053c39179/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374617475742d5465726d696e2543332541392d73756363657373)](https://github.com/PanDox42/textgame-donjons-et-dragons)
+
 
 Une application Java en console pour simuler un jeu de rôle inspiré de **Donjons & Dragons**, mettant en scène des personnages combattant des monstres à travers plusieurs donjons.
 
